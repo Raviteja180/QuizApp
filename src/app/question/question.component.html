@@ -1,0 +1,23 @@
+<div class="whole">
+    <div *ngIf = "isend; else elseBlock">
+        <h4>Score is : {{score}}/{{questions.length}}</h4>
+    </div>
+    <ng-template #elseBlock>
+        <div class="questionBlock">
+            <p>{{i+1}}) {{question.question}}</p>
+            <p id="total">{{i+1}}/{{questions.length}}</p>
+            <div *ngFor = "let option of question.options" class="optionBlock">
+                <p><input type="radio" name="op" value="{{option}}" (change) = "onChangingOption($event.target)">{{option}}</p>
+                
+            </div>
+        </div>
+        <div class="blockOfButtons">
+            <button *ngIf="i>0"  (click) = "previousQuestion()">Prev</button>
+            <button *ngIf="(i+1) < (totalQuestions); else x " (click) = "changeQuestion()">Next</button>
+            <ng-template #x>
+                <button (click) = "changeQuestion()">Submit</button>
+            </ng-template> 
+        </div>
+             
+    </ng-template>  
+</div>

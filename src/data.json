@@ -1,0 +1,34 @@
+[
+    {
+        "question" : "Who is the Captain Of Indian Cricket Team ?",
+        "answer" : "Virat Kohli",
+        "options": ["Virat Kohli","M.S.Dhoni","Rohit Sharma","Ravindra Jadeja"]
+    },
+    {
+        "question" : "What is the Capital City of India ?",
+        "answer" : "Delhi",
+        "options": ["Bangalore","Goa","Hyderabad","Delhi"]
+        
+    }   ,
+        
+    {
+        "question" : "Who directed the film 'PUSHPA' ?",
+        "answer" : "Sukumar",
+        "options": ["Rajamouli","Trivikram","Sukumar","Shekar Kammula"]
+        
+    },
+        
+    {
+        "question" : "Which of these are located in Hyderabad ?",
+        "answer" : "Charminar",
+        "options": ["Charminar","Taj Mahal","GateWay of India","ISKON temple"]
+        
+    },
+        
+    {
+        "question" : "Angular is a",
+        "answer" : "Single Page Client Application",
+        "options": ["Single Page Client Application","Multiple Page Client Application","Dynamic Page Application","None Of the above"]
+        
+    }
+]
